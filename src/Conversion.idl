@@ -1,0 +1,14 @@
+// Le module corbaConversion encapsule les interfaces liées à la conversion.
+module corbaConversion {
+
+  // L'interface IConversionRemote définit les opérations pour la conversion.
+  interface IConversionRemote {
+  
+    // La méthode conversionMontant convertit un montant donné.
+    // @param mt Le montant à convertir.
+    // @return Le montant converti.
+    double conversionMontant (in double mt);
+    
+  }; // Fin de l'interface IConversionRemote
+
+}; // Fin du module corbaConversion
